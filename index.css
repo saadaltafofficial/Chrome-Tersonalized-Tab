@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px #242424;
+    font-family: "Inter", serif;
+}
+
+main {
+    padding: 2em 3em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+    font-size: 5rem;
+}
+
+div#crypto {
+    font-size: 1.2rem;
+}
+
+.bitcoin {
+    margin-bottom: 1em;
+}
+
+.bitcoin, .zignaly {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
+
+.imageName {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-right: 1em;
+}
+
+table {
+    text-align: left;
+}
+
+
+.zignaly img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.bitcoin img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+
+div#weather > img {
+    width: 60px;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
